@@ -1,4 +1,4 @@
-## Coding Practices
+## R Coding Practices
 
  - Functions should be all lower case with underscores separating words
    - `my_function = function { ...`
