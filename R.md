@@ -11,7 +11,7 @@
  - When writing packages for release on `CRAN`, never use `library` calls. Explicitly use `::` instead
  - Use spaces between parameters
    - `my_function(a = "foo", b = "bar")`
- - Shiny server and UI functions should follow best practices found (here)[(http://shiny.rstudio.com/articles/modules.html]
+ - Shiny server and UI functions should follow best practices found [here](http://shiny.rstudio.com/articles/modules.html)
    - Shiny server and UI functions should be in title case
      - `MyServerFunction`, coupled with `MyServerFunctionUI`
    - Modularised code should be stored in a library in seperate files with the filename as the name of the function
