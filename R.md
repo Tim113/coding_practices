@@ -15,7 +15,7 @@
    - Shiny server and UI functions should be in title case
      - `MyServerFunction`, coupled with `MyServerFunctionUI`
    - Modularised code should be stored in a library in seperate files with the filename as the name of the function
-     - `MyServerFunction.R` contains `MyServerFunction = function(input, output, ...)`
+     - `MyServerFunction.R` contains `MyServerFunction = function(input, output, session, ...)`
  - Comments should be placed above code, or two spaces after inline code.  A single space should follow the hash before the comment
    - `x = "hi"<two spaces># example comment` (GitHub markdown trims whitespace)
 
