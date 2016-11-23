@@ -16,6 +16,8 @@
      - `MyServerFunction`, coupled with `MyServerFunctionUI`
    - Modularised code should be stored in a library in seperate files with the filename as the name of the function
      - `MyServerFunction.R` contains `MyServerFunction = function(input, output, ...)`
+ - Comments should be placed above code, or two spaces after inline code.  A single space should follow the hash before the comment
+   - `x = "hi  # example comment`
 
 ### Data Prefixes
 
