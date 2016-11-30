@@ -30,6 +30,6 @@
 
 #### Queries
 
-  - `get_` - `SELECT` queries
-  - `q_` - all other queries
+  - `q_` - queries
   - `qr_` - query requests
+  - Once the `qr_` is returned, it will likely be a `dt_`
