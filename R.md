@@ -18,6 +18,8 @@
      - `MyServerFunction.R` contains `MyServerFunction = function(input, output, ...)`
  - Comments should be placed above code, or two spaces after inline code.  A single space should follow the hash before the comment
    - `x = "hi"<two spaces># example comment` (GitHub markdown trims whitespace)
+ - In unit testing it is nessesery to mock functions called by the unit you are testing.  To aviod confusion, but make it clear which funtion is being mocked use:
+   - A the function `function_to_mock` is mocked by function `FuntionToMock`.
 
 ### Data Prefixes
 
