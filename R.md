@@ -29,6 +29,7 @@
   - `<none>` - vectorised integers (Not sure about this... might be useful to have something)
   - `n_` - counts, should be vector of length `1`
   - `ptn_` - regex patterns
+  - `ls_` - list
 
 #### Queries
 
