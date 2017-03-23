@@ -1,6 +1,6 @@
 ## Python Coding Practices
 
-We will try follow the PEP8 guidelines: 
+We will try to follow the PEP8 guidelines: 
 
 [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 
