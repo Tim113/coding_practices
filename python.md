@@ -1,4 +1,4 @@
-## Python Coding Practises
+## Python Coding Practices
 
 In principle we will follow the PEP8 guidelines 
 
