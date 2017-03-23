@@ -1,10 +1,17 @@
 ## Python Coding Practices
 
-In principle we will follow the PEP8 guidelines 
+We will try follow the PEP8 guidelines: 
 
 [https://www.python.org/dev/peps/pep-0008/](https://www.python.org/dev/peps/pep-0008/)
 
-We will also try to follow R coding practises where relevant (unless they contradict with PEP8).
+But remember:
+
+1. Consistency with this style guide is important. 
+2. Consistency within a project is more important. 
+3. Consistency within one module or function is the most important. 
+4. However, know when to be inconsistent.
+
+We will also try to match our [R coding practices](R.md) where relevant (unless they are in contradiction with PEP8).
 
 ---
 
@@ -40,7 +47,7 @@ MyClass
 
 - Whole line commments should be complete sentences
 ```python
-# This is a qhole line comment.
+# This is a whole line comment.
 ```
 
 - Inline comments should be descriptive. They should be separated from code by four white spaces.
