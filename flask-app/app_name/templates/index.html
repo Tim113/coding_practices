@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+  {% block head_css %}
+    {{super()}}
+
+  {% endblock head_css %}
+
+  {% block head_js %}
+    {{super()}}
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" integrity="sha384-yIqa4x9Cpx9ZK4TKjprtQfMzhBQaotZRqdvNR6Y0Ozb+/2TaeBTqxr9ko1tQhSgU" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js" integrity="sha384-0pGf+p56VFi47e53Kawkeo7w25jP7xFIfTHPToC2yQFUmVhsw2vj4C09fCznX7C+" crossorigin="anonymous"></script>
+  {% endblock head_js %}
+
+  {% block body %}
+  <h1>Hello World!</h1>
+  {% endblock body %}
