@@ -36,6 +36,8 @@ def a():
 
 ## Usage
 
+Then when launching the jupyter server, you can run
+
 ```
 # nb/nb1.ipynb
 import utils
