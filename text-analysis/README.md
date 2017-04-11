@@ -1,4 +1,4 @@
-# Text Analysis Project Setup
+# Project Structure and Setup
 
 Analysis is a process, not a product, thus the entire analysis must be
 reproducible such that the code base can decentralised and worked on
@@ -17,7 +17,6 @@ maintaining code and finding bugs.
    base data that you will start working with, and so should be fast
    - In this context, tidy means a table that can be stored in an R table
    - This includes `data.frames`, `data.tables` and `tibbles`
-
 
 The folder structure is defined by the package `ProjectTemplate`. The
 `.Rprofile` file loads the project when you load an R session. This
@@ -60,6 +59,14 @@ reduces errors in results.
 
 After the text classification, `script.R` may use from functions in `src` to
 explore, tabulate or visualise the resulting variables.
+
+## Text Analysis Libraries
+
+To have access to a simple text classification library which will suffice for
+the majority of our text analytics projects, let one of the github admins know
+such that we can add you to a the repo.  
+
+For more complicated text analysis, investigate `tidytext` or `termco`.
 
 ### Automatic and Manual classifiers
 
