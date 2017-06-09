@@ -19,9 +19,9 @@
  - Comments should be placed above code, or two spaces after inline code.  A single space should follow the hash before the comment
    - `x = "hi"<two spaces># example comment` (GitHub markdown trims whitespace)
  - If statments should have spaces around brackets:
-   - `if (x > 5) {`
-   - `} else {`
-   - `} else if {`
+   - `if (x > 5) {...`
+   - `...} else {...`
+   - `...} else if {...`
 
 ### Data Prefixes
 
